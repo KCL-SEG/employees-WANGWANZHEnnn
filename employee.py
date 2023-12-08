@@ -43,3 +43,11 @@ class Employee:
         
         total_pay = self.get_pay()
         return f"{pay_details}. Their total pay is {total_pay}."
+
+# Examples of constructing employee objects
+billie = Employee(name="Billie", contract_type="salary", monthly_salary=4000)
+charlie = Employee(name="Charlie", contract_type="hourly", hourly_wage=25, hours_worked=100)
+renee = Employee(name="Renee", contract_type="salary", monthly_salary=3000, contract_commission=200, contracts_landed=4)
+jan = Employee(name="Jan", contract_type="hourly", hourly_wage=25, hours_worked=150, contract_commission=220, contracts_landed=3)
+robbie = Employee(name="Robbie", contract_type="salary", monthly_salary=2000, bonus_commission=1500)
+ariel = Employee(name="Ariel", contract_type="hourly", hourly_wage=30, hours_worked=120, bonus_commission=600)
